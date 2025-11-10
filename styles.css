@@ -1,5 +1,5 @@
 :root{
-    --bg:#1f85eb;
+    --bg:#a3b4c5;
     --card:#e02323;
     --muted:#1e2f50;
     --accent:#012e50;
@@ -52,11 +52,11 @@ input[type="checkbox"]{
 
 /* rozsah (síla ohnivého dechu) */
 input[type="range"]{
-    width:100%;
+    width:90%;
     margin:8px 0 12px;
 }
 
-/* POŽADAVEK: výběr barvy šupin alespoň 40x40 px */
+/* výběr barvy šupin */
 input[type="color"]{
     min-width:40px;
     min-height:40px;

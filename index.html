@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
+    <a href="neco.html">něco</a>
+    
     <form action="https://formsubmit.co/vtyzl@spskt.cz" method="POST" enctype="multipart/form-data">
         
     <input type="text" placeholder="Jméno draka">
@@ -25,18 +28,22 @@
      <br>
      <input type="checkbox">certifikát nehořlavosti
         <br>
-        <label for="discipline">disciplína</label><br>
-        <select id="discipline" name="disciplíny">
+        <input type="text" placeholder="Číslo letu draka">
+        <label for="discipline">disciplína</label>
+        <select id="discipline" name="disciplíny" multiple size="3">
             <option value="řev">nejhlasitější řev</option>
             <option value="plivání ohně">plivání ohně na cíl</option>
             <option value="let">let mezi sopkami</option>
         </select>
+        <input type="file" accept=".jpg, .jpeg, .png, .gif">nahrát fotografii draka
+        <br>
+        <br>
         <br>    
         <br>
         <br>
-          <input type="email" placeholder="ohnivy@drak.cz">
+        e-mail:  <input type="email" placeholder="ohnivy@drak.cz">
     <br>
-    <input type="password" placeholder="heslo">
+    heslo:<input type="password" placeholder="heslo">
     <br>
     <input type="submit" value="Přihlásit draka">
     <input type="reset" value="Vymazat formulář">
