@@ -1,5 +1,5 @@
 :root{
-    --bg:#a3b4c5;
+   
     --card:#e02323;
     --muted:#1e2f50;
     --accent:#012e50;
@@ -8,7 +8,8 @@
 *{box-sizing:border-box}
 body{
     font-family: "Segoe UI", Roboto, Arial, sans-serif;
-    background:var(--bg);
+   
+    
     color:#111827;
     padding:32px;
 }
